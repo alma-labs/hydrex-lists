@@ -50,7 +50,7 @@ const tokenList: TokenList = {
     minor: 0,
     patch: 0,
   },
-  tokens: baseTokens,
+  tokens: [...baseTokens, ...baseSepoliaTokens],
 };
 
 ensureDirectoryExists(outputDir);
