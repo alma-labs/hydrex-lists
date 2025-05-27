@@ -1,4 +1,3 @@
-// Uniswap Token List Standard
 export interface Token {
   chainId: number;
   address: string;
@@ -18,4 +17,17 @@ export interface TokenList {
     patch: number;
   };
   tokens: Token[];
+}
+
+export interface Badge {
+  name: string;
+  nftId: string;
+  image: string;
+  rewardImage: string;
+  description: string;
+  type: "Airdrop" | "Tier" | "Activity" | "Partner";
+  metric?: string;
+  partnerName?: string;
+  minHydropoints: number;
+  poolSize?: number;
 }
