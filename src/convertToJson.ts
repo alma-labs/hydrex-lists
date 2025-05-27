@@ -49,8 +49,8 @@ function checkForDuplicateTokens(tokens: Token[]) {
 const tokenList: TokenList = {
   name: "Hydrex Token List",
   logoURI:
-    "https://raw.githubusercontent.com/alma-labs/tokiemon-lists/main/assets/tokens/TOKIEMON.png",
-  keywords: ["tokiemon", "base", "meme"],
+    "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/HYDREX.png",
+  keywords: ["base", "meme"],
   version: {
     major: 1,
     minor: 0,
