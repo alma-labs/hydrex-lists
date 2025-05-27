@@ -1,9 +1,11 @@
 import { writeFileSync, mkdirSync, existsSync } from "fs";
 import { resolve } from "path";
 import { baseTokens, baseSepoliaTokens } from "./tokens";
+import { Badges } from "./badges";
 import { Token, TokenList } from "./types";
 
 const outputDir = resolve(__dirname, "../tokens");
+const badgesOutputDir = resolve(__dirname, "../badges");
 
 function ensureDirectoryExists(dir: string) {
   if (!existsSync(dir)) {
@@ -11,13 +13,17 @@ function ensureDirectoryExists(dir: string) {
   }
 }
 
-function writeJsonFile(filename: string, jsonData: any) {
+function writeJsonFile(
+  filename: string,
+  jsonData: any,
+  outputDirectory: string = outputDir
+) {
   if (!jsonData) {
     console.error(`❌ No data found for ${filename}`);
     return;
   }
 
-  const outputPath = resolve(outputDir, `${filename}.json`);
+  const outputPath = resolve(outputDirectory, `${filename}.json`);
   writeFileSync(outputPath, JSON.stringify(jsonData, null, 2), "utf-8");
   console.log(`✅ JSON file created: ${outputPath}`);
 }
@@ -54,6 +60,7 @@ const tokenList: TokenList = {
 };
 
 ensureDirectoryExists(outputDir);
+ensureDirectoryExists(badgesOutputDir);
 
 try {
   checkForDuplicateTokens(baseTokens);
@@ -61,6 +68,7 @@ try {
   writeJsonFile("main", tokenList);
   writeJsonFile("8453", baseTokens);
   writeJsonFile("84532", baseSepoliaTokens);
+  writeJsonFile("main", Badges, badgesOutputDir);
 } catch (error: any) {
   console.error(`❌ Error processing tokens: ${error.message}`);
   process.exit(1);

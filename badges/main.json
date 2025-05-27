@@ -1,0 +1,95 @@
+[
+  {
+    "name": "Starter",
+    "nftId": "1",
+    "image": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/badges/placeholder.png",
+    "rewardImage": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/badges/placeholder.png",
+    "description": "Tier 1 Farmer",
+    "type": "Tier",
+    "minHydropoints": 100,
+    "poolSize": 10000
+  },
+  {
+    "name": "Farmer",
+    "nftId": "2",
+    "image": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/badges/placeholder.png",
+    "rewardImage": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/badges/placeholder.png",
+    "description": "Tier 2 Farmer",
+    "type": "Tier",
+    "minHydropoints": 1000,
+    "poolSize": 10000
+  },
+  {
+    "name": "Based",
+    "nftId": "3",
+    "image": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/badges/placeholder.png",
+    "rewardImage": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/badges/placeholder.png",
+    "description": "Tier 3 Farmer",
+    "type": "Tier",
+    "minHydropoints": 10000,
+    "poolSize": 10000
+  },
+  {
+    "name": "Degen",
+    "nftId": "4",
+    "image": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/badges/placeholder.png",
+    "rewardImage": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/badges/placeholder.png",
+    "description": "Tier 4 Farmer",
+    "type": "Tier",
+    "minHydropoints": 100000,
+    "poolSize": 20000
+  },
+  {
+    "name": "God",
+    "nftId": "5",
+    "image": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/badges/placeholder.png",
+    "rewardImage": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/badges/placeholder.png",
+    "description": "Tier 5 Farmer",
+    "type": "Tier",
+    "minHydropoints": 1000000,
+    "poolSize": 30000
+  },
+  {
+    "name": "Tokiemon",
+    "nftId": "6",
+    "image": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/badges/placeholder.png",
+    "rewardImage": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/badges/placeholder.png",
+    "description": "Runes Holders",
+    "type": "Partner",
+    "metric": "Runes",
+    "partnerName": "Tokiemon",
+    "minHydropoints": 10,
+    "poolSize": 20000
+  },
+  {
+    "name": "Farcaster",
+    "nftId": "7",
+    "image": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/badges/placeholder.png",
+    "rewardImage": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/badges/placeholder.png",
+    "description": "Have a farcaster account",
+    "type": "Partner",
+    "minHydropoints": 10,
+    "poolSize": 5000
+  },
+  {
+    "name": "Cat Town",
+    "nftId": "8",
+    "image": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/badges/placeholder.png",
+    "rewardImage": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/badges/placeholder.png",
+    "description": "Reward staked Kibble",
+    "type": "Partner",
+    "metric": "Kibble",
+    "partnerName": "Cat Town",
+    "minHydropoints": 10
+  },
+  {
+    "name": "Basename",
+    "nftId": "9",
+    "image": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/badges/placeholder.png",
+    "rewardImage": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/badges/placeholder.png",
+    "description": "Acquire a Basename",
+    "type": "Activity",
+    "minHydropoints": 1,
+    "poolSize": 10000
+  }
+]
