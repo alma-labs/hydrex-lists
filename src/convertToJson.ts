@@ -2,10 +2,13 @@ import { writeFileSync, mkdirSync, existsSync } from "fs";
 import { resolve } from "path";
 import { tokens as baseTokens } from "./tokens/8453";
 import { tokens as baseSepoliaTokens } from "./tokens/84532";
+import { strategies as baseStrategies } from "./strategies/8453";
+import { strategies as baseSepoliaStrategies } from "./strategies/84532";
 import { Badges } from "./badges";
-import { Token, TokenList } from "./types";
+import { Token, TokenList, Strategy } from "./types";
 
 const outputDir = resolve(__dirname, "../tokens");
+const strategiesOutputDir = resolve(__dirname, "../strategies");
 const badgesOutputDir = resolve(__dirname, "../badges");
 
 function ensureDirectoryExists(dir: string) {
@@ -47,6 +50,24 @@ function checkForDuplicateTokens(tokens: Token[]) {
   }
 }
 
+function checkForDuplicateStrategies(strategies: Strategy[]) {
+  const strategyKeys = new Set<string>();
+  const duplicates: string[] = [];
+
+  strategies.forEach((strategy) => {
+    const key = `${strategy.chainId}-${strategy.address}`;
+    if (strategyKeys.has(key)) {
+      duplicates.push(key);
+    } else {
+      strategyKeys.add(key);
+    }
+  });
+
+  if (duplicates.length > 0) {
+    throw new Error(`Duplicate strategies found: ${duplicates.join(", ")}`);
+  }
+}
+
 const tokenList: TokenList = {
   name: "Hydrex Token List",
   logoURI:
@@ -60,17 +81,31 @@ const tokenList: TokenList = {
   tokens: [...baseTokens, ...baseSepoliaTokens],
 };
 
+const allStrategies = [...baseStrategies, ...baseSepoliaStrategies];
+
 ensureDirectoryExists(outputDir);
+ensureDirectoryExists(strategiesOutputDir);
 ensureDirectoryExists(badgesOutputDir);
 
 try {
   checkForDuplicateTokens(baseTokens);
   checkForDuplicateTokens(baseSepoliaTokens);
+  checkForDuplicateStrategies(baseStrategies);
+  checkForDuplicateStrategies(baseSepoliaStrategies);
+  
+  // Write token files
   writeJsonFile("main", tokenList);
   writeJsonFile("8453", baseTokens);
   writeJsonFile("84532", baseSepoliaTokens);
+  
+  // Write strategy files
+  writeJsonFile("main", allStrategies, strategiesOutputDir);
+  writeJsonFile("8453", baseStrategies, strategiesOutputDir);
+  writeJsonFile("84532", baseSepoliaStrategies, strategiesOutputDir);
+  
+  // Write badges
   writeJsonFile("main", Badges, badgesOutputDir);
 } catch (error: any) {
-  console.error(`❌ Error processing tokens: ${error.message}`);
+  console.error(`❌ Error processing tokens/strategies: ${error.message}`);
   process.exit(1);
 }
