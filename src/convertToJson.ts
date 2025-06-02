@@ -1,6 +1,7 @@
 import { writeFileSync, mkdirSync, existsSync } from "fs";
 import { resolve } from "path";
-import { baseTokens, baseSepoliaTokens } from "./tokens";
+import { tokens as baseTokens } from "./tokens/8453";
+import { tokens as baseSepoliaTokens } from "./tokens/84532";
 import { Badges } from "./badges";
 import { Token, TokenList } from "./types";
 
