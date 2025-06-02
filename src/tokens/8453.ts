@@ -1,6 +1,6 @@
 import { Token } from "../types";
 
-export const baseTokens: Token[] = [
+export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0xc5fecC3a29Fb57B5024eEc8a2239d4621e111CBE",
@@ -566,24 +566,5 @@ export const baseTokens: Token[] = [
     symbol: "ZRX",
     decimals: 18,
     logoURI: "https://ethereum-optimism.github.io/data/ZRX/logo.png",
-  },
-];
-
-export const baseSepoliaTokens: Token[] = [
-  {
-    chainId: 84532,
-    address: "0x4200000000000000000000000000000000000006",
-    name: "Wrapped Ether",
-    symbol: "WETH",
-    decimals: 18,
-    logoURI: "https://ethereum-optimism.github.io/data/WETH/logo.png",
-  },
-  {
-    chainId: 84532,
-    address: "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
-    name: "USD Coin",
-    symbol: "USDC",
-    decimals: 6,
-    logoURI: "https://ethereum-optimism.github.io/data/USDC/logo.png",
   },
 ];
