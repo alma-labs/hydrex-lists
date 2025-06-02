@@ -9,8 +9,8 @@ export const strategies: Strategy[] = [
     liquidityType: "uniV4",
     strategist: "Gamma",
     address: "0xdb7608614dfdd9febfc1b82a7609420fa7b3bc34",
-    token0Address: "0x0000000000000000000000000000000000000000",
-    token1Address: ETH_NATIVE_ADDRESS,
+    token0Address: ETH_NATIVE_ADDRESS,
+    token1Address: USDC.address,
     v4PoolId:
       "0x2a06ec4869b1a21843a99f25a184c71a7a5ea56ed533ec2bf035e1ad50f66483",
   },
