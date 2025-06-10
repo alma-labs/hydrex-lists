@@ -28,14 +28,18 @@ export interface TokenList {
 export interface Badge {
   name: string;
   nftId: string;
-  image: string;
+  image: string; // Main image for the badge
   rewardImage: string;
   description: string;
-  type: "Airdrop" | "Tier" | "Activity" | "Partner";
-  metric?: string;
-  partnerName?: string;
+  type:
+    | "Tier" // Tier = The main badge flow, no limit, users split a pool of Hydropoints
+    | "Activity" // Activity = Limited supply airdrop, participants get a specific allocation
+    | "Partner"; // Partner = Rewards based on a metric, usually with a ratio.
   minHydropoints: number;
-  poolSize?: number;
+  metric?: string; // Just for showing the metric in the UI
+  partnerName?: string; // Just for showing the partner name in the UI
+  poolSize?: number; // Shows total planned pool size in UI
+  maxSupply?: number; // Impacts Max Supply configuration on smart contract
 }
 
 export interface Strategy {
