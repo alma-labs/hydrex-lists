@@ -30,6 +30,16 @@ export const USDC_ALT: Token = {
     "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/USDC.png",
 };
 
+export const USDC_ICHI: Token = {
+  chainId: 84532,
+  address: "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+  name: "Ichi USD",
+  symbol: "USDC",
+  decimals: 6,
+  logoURI:
+    "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/USDC.png",
+};
+
 export const cbBTC: Token = {
   chainId: 84532,
   address: "0x2b7a959451C7b2C3029966a6526aab939fe9E863",

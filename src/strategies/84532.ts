@@ -1,5 +1,5 @@
 import { Strategy, ETH_NATIVE_ADDRESS } from "../types";
-import { USDC, cbBTC } from "../tokens/84532";
+import { USDC, USDC_ICHI, WETH, cbBTC } from "../tokens/84532";
 
 export const strategies: Strategy[] = [
   {
@@ -25,5 +25,16 @@ export const strategies: Strategy[] = [
     token1Address: cbBTC.address,
     v4PoolId:
       "0x4d4fb0dbfdd83450bc26dcfa9b8627eeee560cf5a7a52731a3a51ab0f2f62db3",
+  },
+  {
+    chainId: 84532,
+    title: "USDC/WETH",
+    type: "Single Sided",
+    liquidityType: "integral",
+    strategist: "Ichi",
+    address: "0x0034060c628D988Bf8D34bd2F8ff3fbDc02044BD",
+    token0Address: USDC_ICHI.address,
+    token1Address: WETH.address,
+    depositToken: WETH.address,
   },
 ];

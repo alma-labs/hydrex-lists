@@ -1,5 +1,9 @@
 export type LiquidityType = "uniV4" | "integral";
-export type StrategyType = "Narrow" | "Correlated" | "Long-Short";
+export type StrategyType =
+  | "Narrow"
+  | "Correlated"
+  | "Long-Short"
+  | "Single Sided";
 export type Strategist = "Ichi" | "Gamma";
 
 export const ETH_NATIVE_ADDRESS = "0x0000000000000000000000000000000000000000";
