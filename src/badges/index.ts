@@ -1,14 +1,14 @@
 import { Badge } from "../types";
 
-const PLACEHOLDER_IMAGE =
-  "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/badges/placeholder.png";
+const LINK_PREFIX =
+  "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/badges";
 
 export const Badges: Badge[] = [
   {
     name: "Hydrex O.G.",
     nftId: "0",
-    image: PLACEHOLDER_IMAGE,
-    rewardImage: PLACEHOLDER_IMAGE,
+    image: `${LINK_PREFIX}/0.png`,
+    rewardImage: `${LINK_PREFIX}/0.png`,
     description:
       "A Badge designed for all the Hydrex O.G.'s and day 1 supporters.",
     type: "Activity",
@@ -20,8 +20,8 @@ export const Badges: Badge[] = [
   {
     name: "Base Starter",
     nftId: "1",
-    image: PLACEHOLDER_IMAGE,
-    rewardImage: PLACEHOLDER_IMAGE,
+    image: `${LINK_PREFIX}/1.png`,
+    rewardImage: `${LINK_PREFIX}/1.png`,
     description:
       "Provide liquidity to acquire 1000+ Hydropoints & become a tier 1 Based Hydrex Member.",
     type: "Tier",
@@ -32,8 +32,8 @@ export const Badges: Badge[] = [
   {
     name: "Honest Work",
     nftId: "2",
-    image: PLACEHOLDER_IMAGE,
-    rewardImage: PLACEHOLDER_IMAGE,
+    image: `${LINK_PREFIX}/2.png`,
+    rewardImage: `${LINK_PREFIX}/2.png`,
     description:
       "Provide liquidity to acquire 10,000+ Hydropoints & become a tier 2 Based Hydrex Member.",
     type: "Tier",
@@ -44,8 +44,8 @@ export const Badges: Badge[] = [
   {
     name: "DeFi Degen",
     nftId: "3",
-    image: PLACEHOLDER_IMAGE,
-    rewardImage: PLACEHOLDER_IMAGE,
+    image: `${LINK_PREFIX}/3.png`,
+    rewardImage: `${LINK_PREFIX}/3.png`,
     description:
       "Provide liquidity to acquire 100,000+ Hydropoints & become a tier 3 Based Hydrex Member.",
     type: "Tier",
@@ -56,8 +56,8 @@ export const Badges: Badge[] = [
   {
     name: "Master Baser",
     nftId: "4",
-    image: PLACEHOLDER_IMAGE,
-    rewardImage: PLACEHOLDER_IMAGE,
+    image: `${LINK_PREFIX}/4.png`,
+    rewardImage: `${LINK_PREFIX}/4.png`,
     description:
       "Provide liquidity to acquire 1,000,000+ Hydropoints & become a tier 4 Based Hydrex Member.",
     type: "Tier",
@@ -68,8 +68,8 @@ export const Badges: Badge[] = [
   {
     name: "Based God",
     nftId: "5",
-    image: PLACEHOLDER_IMAGE,
-    rewardImage: PLACEHOLDER_IMAGE,
+    image: `${LINK_PREFIX}/5.png`,
+    rewardImage: `${LINK_PREFIX}/5.png`,
     description:
       "Provide liquidity to acquire 10,000,000+ Hydropoints & become the top Tier Based Hydrex Member.",
     type: "Tier",
@@ -80,8 +80,8 @@ export const Badges: Badge[] = [
   {
     name: "Purple App",
     nftId: "6",
-    image: PLACEHOLDER_IMAGE,
-    rewardImage: PLACEHOLDER_IMAGE,
+    image: `${LINK_PREFIX}/6.png`,
+    rewardImage: `${LINK_PREFIX}/6.png`,
     description:
       "Create a Farcaster account & use it for Protocol Mining to claim this badge.",
     type: "Activity",
@@ -93,8 +93,8 @@ export const Badges: Badge[] = [
   {
     name: "Caster Pro",
     nftId: "7",
-    image: PLACEHOLDER_IMAGE,
-    rewardImage: PLACEHOLDER_IMAGE,
+    image: `${LINK_PREFIX}/7.png`,
+    rewardImage: `${LINK_PREFIX}/7.png`,
     description:
       "Register your Farcaster account as a Pro user & participate in Protocol Mining to claim this badge.",
     type: "Activity",
@@ -106,8 +106,8 @@ export const Badges: Badge[] = [
   {
     name: "Squad Up",
     nftId: "8",
-    image: PLACEHOLDER_IMAGE,
-    rewardImage: PLACEHOLDER_IMAGE,
+    image: `${LINK_PREFIX}/8.png`,
+    rewardImage: `${LINK_PREFIX}/8.png`,
     description:
       "Follow @HydrexFi on Farcaster and claim this with your Farcaster associated account.",
     type: "Activity",
@@ -119,8 +119,8 @@ export const Badges: Badge[] = [
   {
     name: "Base Dot ETH",
     nftId: "9",
-    image: PLACEHOLDER_IMAGE,
-    rewardImage: PLACEHOLDER_IMAGE,
+    image: `${LINK_PREFIX}/9.png`,
+    rewardImage: `${LINK_PREFIX}/9.png`,
     description:
       "Claim this Badge with an account that has a Basename associated.",
     type: "Activity",
@@ -132,8 +132,8 @@ export const Badges: Badge[] = [
   {
     name: "Pretty Smart",
     nftId: "10",
-    image: PLACEHOLDER_IMAGE,
-    rewardImage: PLACEHOLDER_IMAGE,
+    image: `${LINK_PREFIX}/10.png`,
+    rewardImage: `${LINK_PREFIX}/10.png`,
     description: "Claim this Badge with an account that is a Smart Wallet.",
     type: "Activity",
     partnerName: "Base",
@@ -144,8 +144,8 @@ export const Badges: Badge[] = [
   {
     name: "It's Official",
     nftId: "11",
-    image: PLACEHOLDER_IMAGE,
-    rewardImage: PLACEHOLDER_IMAGE,
+    image: `${LINK_PREFIX}/11.png`,
+    rewardImage: `${LINK_PREFIX}/11.png`,
     description:
       "Claim this Badge with an account that has an onchain Coinbase Verification Attestation.",
     type: "Activity",
@@ -157,8 +157,8 @@ export const Badges: Badge[] = [
   {
     name: "Morphite",
     nftId: "12",
-    image: PLACEHOLDER_IMAGE,
-    rewardImage: PLACEHOLDER_IMAGE,
+    image: `${LINK_PREFIX}/12.png`,
+    rewardImage: `${LINK_PREFIX}/12.png`,
     description:
       "Claim this Badge with an account that has a deposit over $100 on Morpho.",
     type: "Activity",
@@ -170,8 +170,8 @@ export const Badges: Badge[] = [
   {
     name: "Buildooor",
     nftId: "13",
-    image: PLACEHOLDER_IMAGE,
-    rewardImage: PLACEHOLDER_IMAGE,
+    image: `${LINK_PREFIX}/13.png`,
+    rewardImage: `${LINK_PREFIX}/13.png`,
     description:
       "Claim this Badge with an account that has deployed a contract on Base.",
     type: "Activity",
@@ -183,8 +183,8 @@ export const Badges: Badge[] = [
   {
     name: "Content Coiner",
     nftId: "14",
-    image: PLACEHOLDER_IMAGE,
-    rewardImage: PLACEHOLDER_IMAGE,
+    image: `${LINK_PREFIX}/14.png`,
+    rewardImage: `${LINK_PREFIX}/14.png`,
     description:
       "Claim this Badge with an account that has coined content on Zora.",
     type: "Activity",
@@ -196,8 +196,8 @@ export const Badges: Badge[] = [
   {
     name: "Mother Flauncher",
     nftId: "15",
-    image: PLACEHOLDER_IMAGE,
-    rewardImage: PLACEHOLDER_IMAGE,
+    image: `${LINK_PREFIX}/15.png`,
+    rewardImage: `${LINK_PREFIX}/15.png`,
     description: "Claim this Badge with an account that has flaunched a token.",
     type: "Activity",
     partnerName: "Base",
