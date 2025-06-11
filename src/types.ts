@@ -53,8 +53,16 @@ export interface Strategy {
   liquidityType: LiquidityType;
   strategist: Strategist;
   address: string;
+  riskLevel: number;
+  riskDescription: string;
   depositToken?: string;
   token0Address?: string;
   token1Address?: string;
   v4PoolId?: string;
 }
+
+export const MODERATE_RISK_STRING =
+  "This strategy is moderate risk, due to its narrow strategy and the price deviations between the non-correlated assets.";
+
+export const MODERATE_LOW_RISK_STRING =
+  "This strategy is moderately-low risk, due to its narrow strategy and the price deviations between the non-correlated assets.";
