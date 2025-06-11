@@ -1,5 +1,7 @@
 import { Token } from "../types";
 
+// MAKE SURE TO EXPORT AT BOTTOM OF FILE
+
 export const WETH: Token = {
   chainId: 84532,
   address: "0x4200000000000000000000000000000000000006",
@@ -70,4 +72,12 @@ export const EURC: Token = {
     "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/EURC.png",
 };
 
-export const tokens: Token[] = [WETH, USDC, USDC_ALT, cbBTC, LINK, EURC];
+export const tokens: Token[] = [
+  WETH,
+  USDC,
+  USDC_ALT,
+  cbBTC,
+  LINK,
+  EURC,
+  USDC_ICHI,
+];
