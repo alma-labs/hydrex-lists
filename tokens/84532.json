@@ -46,5 +46,13 @@
     "symbol": "EURC",
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/EURC.png"
+  },
+  {
+    "chainId": 84532,
+    "address": "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+    "name": "Ichi USD",
+    "symbol": "USDC",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/USDC.png"
   }
 ]
