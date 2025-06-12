@@ -117,7 +117,23 @@
     "name": "Coinbase Wrapped BTC",
     "symbol": "cbBTC",
     "decimals": 8,
-    "logoURI": "https://assets.coingecko.com/coins/images/40143/standard/cbbtc.webp"
+    "logoURI": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/CBBTC.png"
+  },
+  {
+    "chainId": 8453,
+    "address": "0xcbd06e5a2b0c65597161de254aa074e489deb510",
+    "name": "Coinbase Wrapped DOGE",
+    "symbol": "cbDOGE",
+    "decimals": 8,
+    "logoURI": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/CBDOGE.png"
+  },
+  {
+    "chainId": 8453,
+    "address": "0xcb585250f852c6c6bf90434ab21a00f02833a4af",
+    "name": "Coinbase Wrapped XRP",
+    "symbol": "cbXRP",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/CBXRP.png"
   },
   {
     "chainId": 8453,
@@ -262,6 +278,14 @@
     "symbol": "JAM",
     "decimals": 18,
     "logoURI": "https://assets.coingecko.com/coins/images/24648/large/ey40AzBN_400x400.jpg?1648507272"
+  },
+  {
+    "chainId": 8453,
+    "address": "0x6Bb7a212910682DCFdbd5BCBb3e28FB4E8da10Ee",
+    "name": "Gho Token",
+    "symbol": "GHO",
+    "decimals": 18,
+    "logoURI": "https://coin-images.coingecko.com/coins/images/30663/large/gho-token-logo.png?1720517092"
   },
   {
     "chainId": 8453,
@@ -438,6 +462,14 @@
     "symbol": "USDT",
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+  },
+  {
+    "chainId": 8453,
+    "address": "0x102d758f688a4C1C5a80b116bD945d4455460282",
+    "name": "Bridged USDT0",
+    "symbol": "USDT0",
+    "decimals": 6,
+    "logoURI": "https://assets.coingecko.com/coins/images/53705/large/usdt0.jpg?1737086183"
   },
   {
     "chainId": 8453,

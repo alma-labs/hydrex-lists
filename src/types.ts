@@ -62,6 +62,9 @@ export interface Strategy {
   v4PoolId?: string;
 }
 
+export const LOW_RISK_STRING =
+  "This strategy is low risk. The assets are highly correlated in price. Please note input proportions vs output proportions may vary.";
+
 export const MODERATE_RISK_STRING =
   "This strategy is moderate risk, due to its narrow strategy and the price deviations between the non-correlated assets.";
 
