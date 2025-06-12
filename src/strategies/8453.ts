@@ -1,4 +1,9 @@
-import { LOW_RISK_STRING, Strategy } from "../types";
+import {
+  ETH_NATIVE_ADDRESS,
+  LOW_RISK_STRING,
+  MODERATE_RISK_STRING,
+  Strategy,
+} from "../types";
 
 export const strategies: Strategy[] = [
   {
@@ -14,5 +19,19 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     v4PoolId:
       "0xa18262d729e388b0a67aa65c0dd2a096482b3a27058be5547a3235d053dd90b4",
+  },
+  {
+    chainId: 8453,
+    title: "ETH/USDT0",
+    type: "Narrow",
+    liquidityType: "uniV4",
+    strategist: "Gamma",
+    riskLevel: 5,
+    riskDescription: MODERATE_RISK_STRING,
+    address: "0x50cBEfFdD5671C8CdcE323E0553F1990678100FC",
+    token0Address: ETH_NATIVE_ADDRESS,
+    token1Address: "0x102d758f688a4C1C5a80b116bD945d4455460282",
+    v4PoolId:
+      "0xf36aa3809afef1433f731a64d34df3d2e1a129b60f15f85eeda713f7694ab2b3",
   },
 ];

@@ -499,6 +499,15 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x102d758f688a4C1C5a80b116bD945d4455460282",
+    name: "Bridged USDT0",
+    symbol: "USDT0",
+    decimals: 6,
+    logoURI:
+      "https://assets.coingecko.com/coins/images/53705/large/usdt0.jpg?1737086183",
+  },
+  {
+    chainId: 8453,
     address: "0xacfE6019Ed1A7Dc6f7B508C02d1b04ec88cC21bf",
     name: "Venice Token",
     symbol: "VVV",
