@@ -207,4 +207,18 @@ export const Badges: Badge[] = [
     poolSize: 2500,
     maxSupply: 250,
   },
+  {
+    name: "You The One",
+    nftId: "15",
+    image: `${LINK_PREFIX}/15.png`,
+    rewardImage: `${LINK_PREFIX}/15.png`,
+    description:
+      "Claim this Badge with an account that has a Coinbase One Membership.",
+    type: "Activity",
+    category: "Based",
+    partnerName: "Base",
+    minHydropoints: 1000,
+    poolSize: 2500,
+    maxSupply: 100,
+  },
 ];
