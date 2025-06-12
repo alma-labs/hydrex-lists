@@ -12,6 +12,7 @@ export const Badges: Badge[] = [
     description:
       "A Badge designed for all the Hydrex O.G.'s and day 1 supporters.",
     type: "Activity",
+    category: "Tier",
     partnerName: "Hydrex",
     minHydropoints: 0,
     poolSize: 10000,
@@ -25,6 +26,7 @@ export const Badges: Badge[] = [
     description:
       "Provide liquidity to acquire 1000+ Hydropoints & become a tier 1 Based Hydrex Member.",
     type: "Tier",
+    category: "Tier",
     partnerName: "Base",
     minHydropoints: 1000,
     poolSize: 10000,
@@ -37,6 +39,7 @@ export const Badges: Badge[] = [
     description:
       "Provide liquidity to acquire 10,000+ Hydropoints & become a tier 2 Based Hydrex Member.",
     type: "Tier",
+    category: "Tier",
     partnerName: "Base",
     minHydropoints: 10000,
     poolSize: 10000,
@@ -49,6 +52,7 @@ export const Badges: Badge[] = [
     description:
       "Provide liquidity to acquire 100,000+ Hydropoints & become a tier 3 Based Hydrex Member.",
     type: "Tier",
+    category: "Tier",
     partnerName: "Base",
     minHydropoints: 100000,
     poolSize: 10000,
@@ -61,6 +65,7 @@ export const Badges: Badge[] = [
     description:
       "Provide liquidity to acquire 1,000,000+ Hydropoints & become a tier 4 Based Hydrex Member.",
     type: "Tier",
+    category: "Tier",
     partnerName: "Base",
     minHydropoints: 1000000,
     poolSize: 20000,
@@ -73,6 +78,7 @@ export const Badges: Badge[] = [
     description:
       "Provide liquidity to acquire 10,000,000+ Hydropoints & become the top Tier Based Hydrex Member.",
     type: "Tier",
+    category: "Tier",
     partnerName: "Base",
     minHydropoints: 10000000,
     poolSize: 30000,
@@ -85,6 +91,7 @@ export const Badges: Badge[] = [
     description:
       "Create a Farcaster account & use it for Protocol Mining to claim this badge.",
     type: "Activity",
+    category: "Social",
     partnerName: "Farcaster",
     minHydropoints: 100,
     poolSize: 5000,
@@ -98,6 +105,7 @@ export const Badges: Badge[] = [
     description:
       "Register your Farcaster account as a Pro user & participate in Protocol Mining to claim this badge.",
     type: "Activity",
+    category: "Social",
     partnerName: "Farcaster",
     minHydropoints: 100,
     poolSize: 1500,
@@ -111,6 +119,7 @@ export const Badges: Badge[] = [
     description:
       "Follow @HydrexFi on Farcaster and claim this with your Farcaster associated account.",
     type: "Activity",
+    category: "Social",
     partnerName: "Farcaster",
     minHydropoints: 10,
     poolSize: 5000,
@@ -124,6 +133,7 @@ export const Badges: Badge[] = [
     description:
       "Claim this Badge with an account that has a Basename associated.",
     type: "Activity",
+    category: "Based",
     partnerName: "Base",
     minHydropoints: 10,
     poolSize: 10000,
@@ -136,6 +146,7 @@ export const Badges: Badge[] = [
     rewardImage: `${LINK_PREFIX}/10.png`,
     description: "Claim this Badge with an account that is a Smart Wallet.",
     type: "Activity",
+    category: "Based",
     partnerName: "Base",
     minHydropoints: 10,
     poolSize: 10000,
@@ -149,32 +160,21 @@ export const Badges: Badge[] = [
     description:
       "Claim this Badge with an account that has an onchain Coinbase Verification Attestation.",
     type: "Activity",
+    category: "Based",
     partnerName: "Base",
     minHydropoints: 100,
     poolSize: 10000,
     maxSupply: 500,
   },
   {
-    name: "Morphite",
+    name: "Buildooor",
     nftId: "12",
     image: `${LINK_PREFIX}/12.png`,
     rewardImage: `${LINK_PREFIX}/12.png`,
     description:
-      "Claim this Badge with an account that has a deposit over $100 on Morpho.",
-    type: "Activity",
-    partnerName: "Base",
-    minHydropoints: 1000,
-    poolSize: 2500,
-    maxSupply: 250,
-  },
-  {
-    name: "Buildooor",
-    nftId: "13",
-    image: `${LINK_PREFIX}/13.png`,
-    rewardImage: `${LINK_PREFIX}/13.png`,
-    description:
       "Claim this Badge with an account that has deployed a contract on Base.",
     type: "Activity",
+    category: "Based",
     partnerName: "Base",
     minHydropoints: 1000,
     poolSize: 2500,
@@ -182,12 +182,13 @@ export const Badges: Badge[] = [
   },
   {
     name: "Content Coiner",
-    nftId: "14",
-    image: `${LINK_PREFIX}/14.png`,
-    rewardImage: `${LINK_PREFIX}/14.png`,
+    nftId: "13",
+    image: `${LINK_PREFIX}/13.png`,
+    rewardImage: `${LINK_PREFIX}/13.png`,
     description:
       "Claim this Badge with an account that has coined content on Zora.",
     type: "Activity",
+    category: "Based",
     partnerName: "Base",
     minHydropoints: 1000,
     poolSize: 2500,
@@ -195,11 +196,12 @@ export const Badges: Badge[] = [
   },
   {
     name: "Mother Flauncher",
-    nftId: "15",
-    image: `${LINK_PREFIX}/15.png`,
-    rewardImage: `${LINK_PREFIX}/15.png`,
+    nftId: "14",
+    image: `${LINK_PREFIX}/14.png`,
+    rewardImage: `${LINK_PREFIX}/14.png`,
     description: "Claim this Badge with an account that has flaunched a token.",
     type: "Activity",
+    category: "Memes",
     partnerName: "Base",
     minHydropoints: 1000,
     poolSize: 2500,
