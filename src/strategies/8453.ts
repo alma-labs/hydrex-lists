@@ -1,3 +1,18 @@
-import { Strategy } from "../types";
+import { LOW_RISK_STRING, Strategy } from "../types";
 
-export const strategies: Strategy[] = [];
+export const strategies: Strategy[] = [
+  {
+    chainId: 8453,
+    title: "GHO/USDC",
+    type: "Correlated",
+    liquidityType: "uniV4",
+    strategist: "Gamma",
+    riskLevel: 1,
+    riskDescription: LOW_RISK_STRING,
+    address: "0x5fd254cd52235b9c04e53b48d77b52366bfb7c03",
+    token0Address: "0x6Bb7a212910682DCFdbd5BCBb3e28FB4E8da10Ee",
+    token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    v4PoolId:
+      "0xa18262d729e388b0a67aa65c0dd2a096482b3a27058be5547a3235d053dd90b4",
+  },
+];
