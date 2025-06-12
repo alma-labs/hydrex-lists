@@ -133,7 +133,25 @@ export const tokens: Token[] = [
     symbol: "cbBTC",
     decimals: 8,
     logoURI:
-      "https://assets.coingecko.com/coins/images/40143/standard/cbbtc.webp",
+      "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/CBBTC.png",
+  },
+  {
+    chainId: 8453,
+    address: "0xcbd06e5a2b0c65597161de254aa074e489deb510",
+    name: "Coinbase Wrapped DOGE",
+    symbol: "cbDOGE",
+    decimals: 8,
+    logoURI:
+      "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/CBDOGE.png",
+  },
+  {
+    chainId: 8453,
+    address: "0xcb585250f852c6c6bf90434ab21a00f02833a4af",
+    name: "Coinbase Wrapped XRP",
+    symbol: "cbXRP",
+    decimals: 6,
+    logoURI:
+      "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/CBXRP.png",
   },
   {
     chainId: 8453,
