@@ -3,7 +3,7 @@ import { Badge } from "../types";
 const LINK_PREFIX =
   "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/badges";
 
-export const Badges: Badge[] = [
+const Badges: Badge[] = [
   {
     name: "Hydrex O.G.",
     nftId: "0",
@@ -18,6 +18,51 @@ export const Badges: Badge[] = [
     minHydropoints: 0,
     poolSize: 10000,
     maxSupply: 10000,
+  },
+  {
+    name: "Purple App",
+    nftId: "6",
+    image: `${LINK_PREFIX}/6.png`,
+    rewardImage: `${LINK_PREFIX}/6.png`,
+    description: "Active Farcaster User",
+    fullDescription:
+      "Create a Farcaster account & use it for Protocol Mining to claim this badge.",
+    type: "Activity",
+    category: "Social",
+    partnerName: "Farcaster",
+    minHydropoints: 100,
+    poolSize: 5000,
+    maxSupply: 1000,
+  },
+  {
+    name: "Content Coiner",
+    nftId: "13",
+    image: `${LINK_PREFIX}/13.png`,
+    rewardImage: `${LINK_PREFIX}/13.png`,
+    description: "Zora Content Creator",
+    fullDescription:
+      "Claim this Badge with an account that has coined content on Zora.",
+    type: "Activity",
+    category: "Based",
+    partnerName: "Base",
+    minHydropoints: 1000,
+    poolSize: 2500,
+    maxSupply: 250,
+  },
+  {
+    name: "Mother Flauncher",
+    nftId: "14",
+    image: `${LINK_PREFIX}/14.png`,
+    rewardImage: `${LINK_PREFIX}/14.png`,
+    description: "Successful Token Launcher",
+    fullDescription:
+      "Claim this Badge with an account that has flaunched a token.",
+    type: "Partner",
+    category: "Memes",
+    partnerName: "Base",
+    minHydropoints: 1000,
+    poolSize: 2500,
+    maxSupply: 250,
   },
   {
     name: "Base Starter",
@@ -88,21 +133,6 @@ export const Badges: Badge[] = [
     partnerName: "Base",
     minHydropoints: 10000000,
     poolSize: 30000,
-  },
-  {
-    name: "Purple App",
-    nftId: "6",
-    image: `${LINK_PREFIX}/6.png`,
-    rewardImage: `${LINK_PREFIX}/6.png`,
-    description: "Active Farcaster User",
-    fullDescription:
-      "Create a Farcaster account & use it for Protocol Mining to claim this badge.",
-    type: "Activity",
-    category: "Social",
-    partnerName: "Farcaster",
-    minHydropoints: 100,
-    poolSize: 5000,
-    maxSupply: 1000,
   },
   {
     name: "Caster Pro",
@@ -194,36 +224,6 @@ export const Badges: Badge[] = [
     maxSupply: 250,
   },
   {
-    name: "Content Coiner",
-    nftId: "13",
-    image: `${LINK_PREFIX}/13.png`,
-    rewardImage: `${LINK_PREFIX}/13.png`,
-    description: "Zora Content Creator",
-    fullDescription:
-      "Claim this Badge with an account that has coined content on Zora.",
-    type: "Activity",
-    category: "Based",
-    partnerName: "Base",
-    minHydropoints: 1000,
-    poolSize: 2500,
-    maxSupply: 250,
-  },
-  {
-    name: "Mother Flauncher",
-    nftId: "14",
-    image: `${LINK_PREFIX}/14.png`,
-    rewardImage: `${LINK_PREFIX}/14.png`,
-    description: "Successful Token Launcher",
-    fullDescription:
-      "Claim this Badge with an account that has flaunched a token.",
-    type: "Activity",
-    category: "Memes",
-    partnerName: "Base",
-    minHydropoints: 1000,
-    poolSize: 2500,
-    maxSupply: 250,
-  },
-  {
     name: "You The One",
     nftId: "15",
     image: `${LINK_PREFIX}/15.png`,
@@ -239,3 +239,5 @@ export const Badges: Badge[] = [
     maxSupply: 100,
   },
 ];
+
+export { Badges };
