@@ -35,6 +35,7 @@ export interface Badge {
   image: string; // Main image for the badge
   rewardImage: string;
   description: string;
+  fullDescription?: string;
   type:
     | "Tier" // Tier = The main badge flow, no limit, users split a pool of Hydropoints
     | "Activity" // Activity = Limited supply airdrop, participants get a specific allocation
