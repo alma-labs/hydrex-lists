@@ -5,7 +5,7 @@ import { tokens as baseSepoliaTokens } from "./tokens/84532";
 import { strategies as baseStrategies } from "./strategies/8453";
 import { strategies as baseSepoliaStrategies } from "./strategies/84532";
 import { Badges } from "./badges";
-import { Token, TokenList, Strategy } from "./types";
+import { Token, TokenList, Strategy, Badge } from "./types";
 
 const outputDir = resolve(__dirname, "../tokens");
 const strategiesOutputDir = resolve(__dirname, "../strategies");
@@ -68,6 +68,21 @@ function checkForDuplicateStrategies(strategies: Strategy[]) {
   }
 }
 
+function checkForDuplicateBadges(badges: Badge[]) {
+  const nftIds = badges.map((badge) => badge.nftId);
+  const duplicates: string[] = [];
+
+  nftIds.forEach((id, index) => {
+    if (nftIds.indexOf(id) !== index && !duplicates.includes(id)) {
+      duplicates.push(id);
+    }
+  });
+
+  if (duplicates.length > 0) {
+    throw new Error(`Duplicate badge nftIds found: ${duplicates.join(", ")}`);
+  }
+}
+
 const tokenList: TokenList = {
   name: "Hydrex Token List",
   logoURI:
@@ -92,17 +107,18 @@ try {
   checkForDuplicateTokens(baseSepoliaTokens);
   checkForDuplicateStrategies(baseStrategies);
   checkForDuplicateStrategies(baseSepoliaStrategies);
-  
+  checkForDuplicateBadges(Badges);
+
   // Write token files
   writeJsonFile("main", tokenList);
   writeJsonFile("8453", baseTokens);
   writeJsonFile("84532", baseSepoliaTokens);
-  
+
   // Write strategy files
   writeJsonFile("main", allStrategies, strategiesOutputDir);
   writeJsonFile("8453", baseStrategies, strategiesOutputDir);
   writeJsonFile("84532", baseSepoliaStrategies, strategiesOutputDir);
-  
+
   // Write badges
   writeJsonFile("main", Badges, badgesOutputDir);
 } catch (error: any) {
