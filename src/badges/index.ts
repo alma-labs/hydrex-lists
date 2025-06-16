@@ -9,8 +9,9 @@ export const Badges: Badge[] = [
     nftId: "0",
     image: `${LINK_PREFIX}/0.png`,
     rewardImage: `${LINK_PREFIX}/0.png`,
-    description:
-      "A Badge designed for all the Hydrex O.G.'s and day 1 supporters.",
+    description: "Hydrex Day 1 supporters",
+    fullDescription:
+      "A Badge designed for all the Hydrex O.G.'s and day 1 supporters. Available for minting by anyone early enough.",
     type: "Activity",
     category: "Tier",
     partnerName: "Hydrex",
@@ -23,7 +24,8 @@ export const Badges: Badge[] = [
     nftId: "1",
     image: `${LINK_PREFIX}/1.png`,
     rewardImage: `${LINK_PREFIX}/1.png`,
-    description:
+    description: "First Tier Hydrex User",
+    fullDescription:
       "Provide liquidity to acquire 1000+ Hydropoints & become a tier 1 Based Hydrex Member.",
     type: "Tier",
     category: "Tier",
@@ -36,7 +38,8 @@ export const Badges: Badge[] = [
     nftId: "2",
     image: `${LINK_PREFIX}/2.png`,
     rewardImage: `${LINK_PREFIX}/2.png`,
-    description:
+    description: "Tier 2 Hydrex Member",
+    fullDescription:
       "Provide liquidity to acquire 10,000+ Hydropoints & become a tier 2 Based Hydrex Member.",
     type: "Tier",
     category: "Tier",
@@ -49,7 +52,8 @@ export const Badges: Badge[] = [
     nftId: "3",
     image: `${LINK_PREFIX}/3.png`,
     rewardImage: `${LINK_PREFIX}/3.png`,
-    description:
+    description: "Tier 3 Hydrex Member",
+    fullDescription:
       "Provide liquidity to acquire 100,000+ Hydropoints & become a tier 3 Based Hydrex Member.",
     type: "Tier",
     category: "Tier",
@@ -62,7 +66,8 @@ export const Badges: Badge[] = [
     nftId: "4",
     image: `${LINK_PREFIX}/4.png`,
     rewardImage: `${LINK_PREFIX}/4.png`,
-    description:
+    description: "Tier 4 Hydrex Member",
+    fullDescription:
       "Provide liquidity to acquire 1,000,000+ Hydropoints & become a tier 4 Based Hydrex Member.",
     type: "Tier",
     category: "Tier",
@@ -75,7 +80,8 @@ export const Badges: Badge[] = [
     nftId: "5",
     image: `${LINK_PREFIX}/5.png`,
     rewardImage: `${LINK_PREFIX}/5.png`,
-    description:
+    description: "Top Tier Hydrex Member",
+    fullDescription:
       "Provide liquidity to acquire 10,000,000+ Hydropoints & become the top Tier Based Hydrex Member.",
     type: "Tier",
     category: "Tier",
@@ -88,7 +94,8 @@ export const Badges: Badge[] = [
     nftId: "6",
     image: `${LINK_PREFIX}/6.png`,
     rewardImage: `${LINK_PREFIX}/6.png`,
-    description:
+    description: "Active Farcaster User",
+    fullDescription:
       "Create a Farcaster account & use it for Protocol Mining to claim this badge.",
     type: "Activity",
     category: "Social",
@@ -102,7 +109,8 @@ export const Badges: Badge[] = [
     nftId: "7",
     image: `${LINK_PREFIX}/7.png`,
     rewardImage: `${LINK_PREFIX}/7.png`,
-    description:
+    description: "Farcaster Pro Member",
+    fullDescription:
       "Register your Farcaster account as a Pro user & participate in Protocol Mining to claim this badge.",
     type: "Activity",
     category: "Social",
@@ -116,7 +124,8 @@ export const Badges: Badge[] = [
     nftId: "8",
     image: `${LINK_PREFIX}/8.png`,
     rewardImage: `${LINK_PREFIX}/8.png`,
-    description:
+    description: "Official Hydrex Follower",
+    fullDescription:
       "Follow @HydrexFi on Farcaster and claim this with your Farcaster associated account.",
     type: "Activity",
     category: "Social",
@@ -130,7 +139,8 @@ export const Badges: Badge[] = [
     nftId: "9",
     image: `${LINK_PREFIX}/9.png`,
     rewardImage: `${LINK_PREFIX}/9.png`,
-    description:
+    description: "Proud Basename Owner",
+    fullDescription:
       "Claim this Badge with an account that has a Basename associated.",
     type: "Activity",
     category: "Based",
@@ -144,7 +154,8 @@ export const Badges: Badge[] = [
     nftId: "10",
     image: `${LINK_PREFIX}/10.png`,
     rewardImage: `${LINK_PREFIX}/10.png`,
-    description: "Claim this Badge with an account that is a Smart Wallet.",
+    description: "Smart Wallet User",
+    fullDescription: "Claim this Badge with an account that is a Smart Wallet.",
     type: "Activity",
     category: "Based",
     partnerName: "Base",
@@ -157,7 +168,8 @@ export const Badges: Badge[] = [
     nftId: "11",
     image: `${LINK_PREFIX}/11.png`,
     rewardImage: `${LINK_PREFIX}/11.png`,
-    description:
+    description: "Coinbase Verified User",
+    fullDescription:
       "Claim this Badge with an account that has an onchain Coinbase Verification Attestation.",
     type: "Activity",
     category: "Based",
@@ -171,7 +183,8 @@ export const Badges: Badge[] = [
     nftId: "12",
     image: `${LINK_PREFIX}/12.png`,
     rewardImage: `${LINK_PREFIX}/12.png`,
-    description:
+    description: "Contract Deployer",
+    fullDescription:
       "Claim this Badge with an account that has deployed a contract on Base.",
     type: "Activity",
     category: "Based",
@@ -185,7 +198,8 @@ export const Badges: Badge[] = [
     nftId: "13",
     image: `${LINK_PREFIX}/13.png`,
     rewardImage: `${LINK_PREFIX}/13.png`,
-    description:
+    description: "Zora Content Creator",
+    fullDescription:
       "Claim this Badge with an account that has coined content on Zora.",
     type: "Activity",
     category: "Based",
@@ -199,7 +213,9 @@ export const Badges: Badge[] = [
     nftId: "14",
     image: `${LINK_PREFIX}/14.png`,
     rewardImage: `${LINK_PREFIX}/14.png`,
-    description: "Claim this Badge with an account that has flaunched a token.",
+    description: "Successful Token Launcher",
+    fullDescription:
+      "Claim this Badge with an account that has flaunched a token.",
     type: "Activity",
     category: "Memes",
     partnerName: "Base",
@@ -212,7 +228,8 @@ export const Badges: Badge[] = [
     nftId: "15",
     image: `${LINK_PREFIX}/15.png`,
     rewardImage: `${LINK_PREFIX}/15.png`,
-    description:
+    description: "Coinbase One Member",
+    fullDescription:
       "Claim this Badge with an account that has a Coinbase One Membership.",
     type: "Activity",
     category: "Based",
