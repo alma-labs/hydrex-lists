@@ -37,7 +37,7 @@ export const strategies: Strategy[] = [
   },
   {
     chainId: 8453,
-    title: "WETH/USDC (WETH)",
+    title: "WETH/USDC",
     type: "Single Sided",
     liquidityType: "integral",
     strategist: "Ichi",
@@ -50,7 +50,7 @@ export const strategies: Strategy[] = [
   },
   {
     chainId: 8453,
-    title: "WETH/USDC (WETH)",
+    title: "USDC/WETH",
     type: "Single Sided",
     liquidityType: "integral",
     strategist: "Ichi",
