@@ -557,7 +557,8 @@ export const tokens: Token[] = [
     name: "Wrapped Ether",
     symbol: "WETH",
     decimals: 18,
-    logoURI: "https://ethereum-optimism.github.io/data/WETH/logo.png",
+    logoURI:
+      "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/WETH.png",
   },
   {
     chainId: 8453,
