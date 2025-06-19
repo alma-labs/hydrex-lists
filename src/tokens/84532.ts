@@ -9,7 +9,7 @@ export const WETH: Token = {
   symbol: "WETH",
   decimals: 18,
   logoURI:
-    "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/WETH.png",
+    "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/CBBTC.png",
 };
 
 export const USDC: Token = {

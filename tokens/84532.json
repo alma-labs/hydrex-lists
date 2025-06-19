@@ -5,7 +5,7 @@
     "name": "Wrapped Ether",
     "symbol": "WETH",
     "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/WETH.png"
+    "logoURI": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/CBBTC.png"
   },
   {
     "chainId": 84532,
