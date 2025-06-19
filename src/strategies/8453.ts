@@ -2,6 +2,7 @@ import {
   ETH_NATIVE_ADDRESS,
   LOW_RISK_STRING,
   MODERATE_RISK_STRING,
+  MODERATE_LOW_RISK_STRING,
   Strategy,
 } from "../types";
 
@@ -33,5 +34,31 @@ export const strategies: Strategy[] = [
     token1Address: "0x102d758f688a4C1C5a80b116bD945d4455460282",
     v4PoolId:
       "0xf36aa3809afef1433f731a64d34df3d2e1a129b60f15f85eeda713f7694ab2b3",
+  },
+  {
+    chainId: 8453,
+    title: "WETH/USDC",
+    type: "Single Sided",
+    liquidityType: "integral",
+    strategist: "Ichi",
+    riskLevel: 3,
+    riskDescription: MODERATE_LOW_RISK_STRING,
+    address: "0x07e72E46C319a6d5aCA28Ad52f5C41a7821989Ad",
+    token0Address: "0x4200000000000000000000000000000000000006",
+    token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    depositToken: "0x4200000000000000000000000000000000000006",
+  },
+  {
+    chainId: 8453,
+    title: "USDC/WETH",
+    type: "Single Sided",
+    liquidityType: "integral",
+    strategist: "Ichi",
+    riskLevel: 3,
+    riskDescription: MODERATE_LOW_RISK_STRING,
+    address: "0x0C9be6dF4e114D5Cb04Cbb934172Be1FcC5526c6",
+    token0Address: "0x4200000000000000000000000000000000000006",
+    token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
   },
 ];
