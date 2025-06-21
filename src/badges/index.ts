@@ -96,7 +96,7 @@ const Badges: Badge[] = [
     partnerName: "Farcaster",
     minHydropoints: 10,
     poolSize: 5000,
-    maxSupply: 5000,
+    maxSupply: 2500,
     externalLink: "https://farcaster.xyz/hydrexfi",
   },
   {
@@ -110,7 +110,7 @@ const Badges: Badge[] = [
     type: "Activity",
     category: "Based",
     partnerName: "Base",
-    minHydropoints: 10,
+    minHydropoints: 100,
     poolSize: 10000,
     maxSupply: 5000,
     externalLink: "https://base.org/names",
@@ -126,9 +126,9 @@ const Badges: Badge[] = [
     type: "Activity",
     category: "Based",
     partnerName: "Base",
-    minHydropoints: 10,
+    minHydropoints: 1000,
     poolSize: 10000,
-    maxSupply: 2500,
+    maxSupply: 1000,
   },
   {
     name: "It's Official",
@@ -141,9 +141,9 @@ const Badges: Badge[] = [
     type: "Activity",
     category: "Based",
     partnerName: "Base",
-    minHydropoints: 100,
-    poolSize: 10000,
-    maxSupply: 500,
+    minHydropoints: 1000,
+    poolSize: 2500,
+    maxSupply: 250,
     externalLink: "https://www.coinbase.com/onchain-verify",
   },
   {
@@ -232,7 +232,7 @@ const Badges: Badge[] = [
     category: "Tier",
     partnerName: "Base",
     minHydropoints: 1000000,
-    poolSize: 20000,
+    poolSize: 15000,
   },
   {
     name: "Based God",
@@ -246,7 +246,7 @@ const Badges: Badge[] = [
     category: "Tier",
     partnerName: "Base",
     minHydropoints: 10000000,
-    poolSize: 30000,
+    poolSize: 20000,
   },
 
   // TODO: Edited for Testing Purposes
