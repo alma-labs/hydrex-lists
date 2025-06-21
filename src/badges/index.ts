@@ -11,7 +11,7 @@ const Badges: Badge[] = [
     rewardImage: `${LINK_PREFIX}/0.png`,
     description: "For Hydrex Day 1 supporters",
     fullDescription:
-      "A Badge designed for all the Hydrex O.G.'s and day 1 supporters. Available for minting by anyone early enough.",
+      "A Badge designed for all the Hydrex O.G.'s and day 1 supporters. Claimable by any account. First come first serve.",
     type: "Activity",
     category: "Tier",
     partnerName: "Hydrex",
@@ -26,13 +26,14 @@ const Badges: Badge[] = [
     rewardImage: `${LINK_PREFIX}/6.png`,
     description: "For the Mini App Users",
     fullDescription:
-      "User a Farcaster account that has accumulated sufficient Hydropoints to claim this badge.",
+      "Create a Farcaster account and claim this badge with a connected wallet.",
     type: "Activity",
     category: "Social",
     partnerName: "Farcaster",
     minHydropoints: 100,
     poolSize: 5000,
     maxSupply: 1000,
+    externalLink: "https://farcaster.xyz",
   },
   {
     name: "Content Coiner",
@@ -48,6 +49,7 @@ const Badges: Badge[] = [
     minHydropoints: 1000,
     poolSize: 2500,
     maxSupply: 250,
+    externalLink: "https://zora.co",
   },
   {
     name: "Mother Flauncher",
@@ -63,6 +65,7 @@ const Badges: Badge[] = [
     minHydropoints: 1000,
     poolSize: 2500,
     maxSupply: 250,
+    externalLink: "https://flaunch.gg",
   },
   {
     name: "Caster Pro",
@@ -71,13 +74,14 @@ const Badges: Badge[] = [
     rewardImage: `${LINK_PREFIX}/7.png`,
     description: "Become a Farcaster Pro Subscriber",
     fullDescription:
-      "Register your Farcaster account as a Pro user & participate in Protocol Mining to claim this badge.",
+      "Claim this badge with an account that has registered as a Farcaster Pro user.",
     type: "Activity",
     category: "Social",
     partnerName: "Farcaster",
     minHydropoints: 100,
     poolSize: 1500,
     maxSupply: 100,
+    externalLink: "https://farcaster.xyz",
   },
   {
     name: "Squad Up",
@@ -93,6 +97,7 @@ const Badges: Badge[] = [
     minHydropoints: 10,
     poolSize: 5000,
     maxSupply: 5000,
+    externalLink: "https://farcaster.xyz/hydrexfi",
   },
   {
     name: "Base Dot ETH",
@@ -108,6 +113,7 @@ const Badges: Badge[] = [
     minHydropoints: 10,
     poolSize: 10000,
     maxSupply: 5000,
+    externalLink: "https://base.org/names",
   },
   {
     name: "Pretty Smart",
@@ -115,7 +121,8 @@ const Badges: Badge[] = [
     image: `${LINK_PREFIX}/10.png`,
     rewardImage: `${LINK_PREFIX}/10.png`,
     description: "Only for Smart Wallet Users",
-    fullDescription: "Claim this Badge with an account that is a Smart Wallet.",
+    fullDescription:
+      "Claim this Badge with an account that is a funded Smart Wallet.",
     type: "Activity",
     category: "Based",
     partnerName: "Base",
@@ -137,6 +144,7 @@ const Badges: Badge[] = [
     minHydropoints: 100,
     poolSize: 10000,
     maxSupply: 500,
+    externalLink: "https://www.coinbase.com/onchain-verify",
   },
   {
     name: "Buildooor",
@@ -145,13 +153,14 @@ const Badges: Badge[] = [
     rewardImage: `${LINK_PREFIX}/12.png`,
     description: "Deploy a Contract on Base",
     fullDescription:
-      "Claim this Badge with an account that has deployed a contract on Base.",
+      "Claim this Badge with an account that has deployed a contract on Base that's at least 7 days old.",
     type: "Activity",
     category: "Based",
     partnerName: "Base",
     minHydropoints: 1000,
     poolSize: 2500,
     maxSupply: 250,
+    externalLink: "https://www.base.org/builders",
   },
   {
     name: "You The One",
@@ -167,6 +176,7 @@ const Badges: Badge[] = [
     minHydropoints: 1000,
     poolSize: 2500,
     maxSupply: 100,
+    externalLink: "https://www.coinbase.com/one",
   },
   {
     name: "Base Starter",
@@ -253,6 +263,7 @@ const Badges: Badge[] = [
     partnerName: "Tokiemon",
     minHydropoints: 1000,
     metric: "Tokiemon Runes",
+    externalLink: "https://tokiemon.io",
   },
 ];
 

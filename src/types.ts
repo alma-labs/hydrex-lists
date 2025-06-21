@@ -46,6 +46,7 @@ export interface Badge {
   partnerName?: string; // Just for showing the partner name in the UI
   poolSize?: number; // Shows total planned pool size in UI
   maxSupply?: number; // Impacts Max Supply configuration on smart contract
+  externalLink?: string; // Link to the badge on the website
 }
 
 export interface Strategy {
