@@ -269,15 +269,6 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
-    address: "0xb008BDCF9CdFf9da684a190941dC3dCa8C2Cdd44",
-    name: "Flux",
-    symbol: "FLUX",
-    decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x720CD16b011b987Da3518fbf38c3071d4F0D1495/logo.png",
-  },
-  {
-    chainId: 8453,
     address: "0x968B2323d4b005C7D39c67D31774FE83c9943A60",
     name: "Ampleforth Governance Token",
     symbol: "FORTH",
