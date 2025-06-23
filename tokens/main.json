@@ -461,6 +461,14 @@
     },
     {
       "chainId": 8453,
+      "address": "0x820c137fa70c8691f0e44dc420a5e53c168921dc",
+      "name": "USD Sky",
+      "symbol": "USDS",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/USDS.png"
+    },
+    {
+      "chainId": 8453,
       "address": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
       "name": "Tether USD",
       "symbol": "USDT",
