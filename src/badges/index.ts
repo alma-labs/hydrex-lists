@@ -249,22 +249,22 @@ const Badges: Badge[] = [
     poolSize: 20000,
   },
 
-  // TODO: Edited for Testing Purposes
-  {
-    name: "Tokiemaster",
-    nftId: "16",
-    image: `${LINK_PREFIX}/16.png`,
-    rewardImage: `${LINK_PREFIX}/metrics/16.png`,
-    description: "Top Tokiemon Rune Holder",
-    fullDescription:
-      "Claim this Badge with an account that is a top 100 Tokiemon Rune holder during the snapshot period.",
-    type: "Partner",
-    category: "Gaming",
-    partnerName: "Tokiemon",
-    minHydropoints: 1000,
-    metric: "Tokiemon Runes",
-    externalLink: "https://tokiemon.io",
-  },
+  // // TODO: Edited for Testing Purposes
+  // {
+  //   name: "Tokiemaster",
+  //   nftId: "16",
+  //   image: `${LINK_PREFIX}/16.png`,
+  //   rewardImage: `${LINK_PREFIX}/metrics/16.png`,
+  //   description: "Top Tokiemon Rune Holder",
+  //   fullDescription:
+  //     "Claim this Badge with an account that is a top 100 Tokiemon Rune holder during the snapshot period.",
+  //   type: "Partner",
+  //   category: "Gaming",
+  //   partnerName: "Tokiemon",
+  //   minHydropoints: 1000,
+  //   metric: "Tokiemon Runes",
+  //   externalLink: "https://tokiemon.io",
+  // },
 ];
 
 export { Badges };
