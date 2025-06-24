@@ -88,7 +88,7 @@ const Badges: Badge[] = [
     nftId: "8",
     image: `${LINK_PREFIX}/8.png`,
     rewardImage: `${LINK_PREFIX}/8.png`,
-    description: "Become an Farcaster Hydrex Follower",
+    description: "Become a Farcaster Hydrex Follower",
     fullDescription:
       "Follow @HydrexFi on Farcaster and claim this with your Farcaster associated account.",
     type: "Activity",
