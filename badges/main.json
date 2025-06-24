@@ -78,7 +78,7 @@
     "nftId": "8",
     "image": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/badges/8.png",
     "rewardImage": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/badges/8.png",
-    "description": "Become an Farcaster Hydrex Follower",
+    "description": "Become a Farcaster Hydrex Follower",
     "fullDescription": "Follow @HydrexFi on Farcaster and claim this with your Farcaster associated account.",
     "type": "Activity",
     "category": "Social",
