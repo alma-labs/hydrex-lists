@@ -520,7 +520,7 @@ export const tokens: Token[] = [
     address: "0x820c137fa70c8691f0e44dc420a5e53c168921dc",
     name: "USD Sky",
     symbol: "USDS",
-    decimals: 6,
+    decimals: 18,
     logoURI:
       "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/USDS.png",
   },
