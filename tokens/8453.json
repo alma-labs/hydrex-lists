@@ -113,6 +113,14 @@
   },
   {
     "chainId": 8453,
+    "address": "0xE9185Ee218cae427aF7B9764A011bb89FeA761B4",
+    "name": "BRZ Token",
+    "symbol": "BRZ",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/BRZ.png"
+  },
+  {
+    "chainId": 8453,
     "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
     "name": "Coinbase Wrapped BTC",
     "symbol": "cbBTC",
@@ -134,6 +142,22 @@
     "symbol": "cbXRP",
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/CBXRP.png"
+  },
+  {
+    "chainId": 8453,
+    "address": "0xcbada732173e39521cdbe8bf59a6dc85a9fc7b8c",
+    "name": "Coinbase Wrapped ADA",
+    "symbol": "cbADA",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/CBADA.png"
+  },
+  {
+    "chainId": 8453,
+    "address": "0xcb17c9db87b595717c857a08468793f5bab6445f",
+    "name": "Coinbase Wrapped LTC",
+    "symbol": "cbLTC",
+    "decimals": 8,
+    "logoURI": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/CBLTC.png"
   },
   {
     "chainId": 8453,
