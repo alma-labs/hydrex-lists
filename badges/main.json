@@ -1,11 +1,11 @@
 [
   {
-    "name": "veMaxi",
+    "name": "Vote Escrow Maxi",
     "nftId": "17",
     "image": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/17.png",
     "rewardImage": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/17.png",
-    "description": "For veToken Lockers",
-    "fullDescription": "Own a veToken on a different ve(3,3) protocol? See if you qualify for this badge!",
+    "description": "Lock veTokens? This is for you.",
+    "fullDescription": "Own a Max-Locked veToken on Aerodrome, Lynex, SwapX, Ocelex, or Thena? See if you qualify for this badge!",
     "type": "Partner",
     "category": "DeFi",
     "partnerName": "ve(3,3) Protocols",
@@ -17,17 +17,18 @@
     "nftId": "18",
     "image": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/18.png",
     "rewardImage": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/18.png",
-    "description": "Stake Your BMX",
+    "description": "Stake Your BMX on Base",
     "fullDescription": "Claim this badge by staking BMX tokens on bmx.trade",
     "type": "Partner",
     "category": "DeFi",
     "partnerName": "BMX",
     "minHydropoints": 1000,
     "poolSize": 5000,
-    "maxSupply": 250
+    "maxSupply": 250,
+    "externalLink": "https://bmx.trade"
   },
   {
-    "name": "Escrowed Alien",
+    "name": "Inbetween Alien",
     "nftId": "19",
     "image": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/19.png",
     "rewardImage": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/19.png",
@@ -38,14 +39,15 @@
     "partnerName": "Alien Base",
     "minHydropoints": 1000,
     "poolSize": 2500,
-    "maxSupply": 200
+    "maxSupply": 200,
+    "externalLink": "https://alienbase.xyz"
   },
   {
     "name": "YO-YO",
     "nftId": "20",
     "image": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/20.png",
     "rewardImage": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/20.png",
-    "description": "YO Leaderboard Member",
+    "description": "Be a YO Leaderboard Member",
     "fullDescription": "Claim this badge by being a top 1000 member of the YO leaderboard",
     "type": "Activity",
     "category": "DeFi",
@@ -53,35 +55,38 @@
     "minHydropoints": 1000,
     "poolSize": 1000,
     "maxSupply": 50,
-    "metric": "YO Leaderboard"
+    "metric": "YO Leaderboard",
+    "externalLink": "https://yo.xyz"
   },
   {
     "name": "Well, well, well",
     "nftId": "21",
     "image": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/21.png",
     "rewardImage": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/21.png",
-    "description": "Moonwell Stakers",
+    "description": "Stake WELL on Moonwell",
     "fullDescription": "Claim this badge by staking WELL on Moonwell on Base",
     "type": "Activity",
     "category": "DeFi",
     "partnerName": "Moonwell",
     "minHydropoints": 1000,
     "poolSize": 2500,
-    "maxSupply": 200
+    "maxSupply": 200,
+    "externalLink": "https://moonwell.fi"
   },
   {
-    "name": "Aped & Bonded",
+    "name": "Apes Together Strong",
     "nftId": "22",
     "image": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/22.png",
     "rewardImage": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/22.png",
-    "description": "Buy an ApeBond",
+    "description": "Buy a Bond on Base",
     "fullDescription": "Claim this badge by buying a bond from ape.bond on Base",
     "type": "Partner",
     "category": "DeFi",
     "partnerName": "ApeBond",
     "minHydropoints": 1000,
     "poolSize": 10000,
-    "maxSupply": 250
+    "maxSupply": 250,
+    "externalLink": "https://ape.bond"
   },
   {
     "name": "Hydrex O.G.",
