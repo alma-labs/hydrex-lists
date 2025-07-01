@@ -69,7 +69,8 @@ const Badges: Badge[] = [
     image: `${LINK_PREFIX}/20.png`,
     rewardImage: `${LINK_PREFIX}/20.png`,
     description: "Be a YO Leaderboard Member",
-    fullDescription: "Claim this badge by being a member of the YO leaderboard",
+    fullDescription:
+      "Claim this badge by being a top 2000 member of the late-June YO leaderboard snapshot.",
     type: "Activity",
     category: "DeFi",
     partnerName: "YO",
