@@ -11,7 +11,7 @@ const Badges: Badge[] = [
     rewardImage: `${LINK_PREFIX}/17.png`,
     description: "Lock veTokens? This is for you.",
     fullDescription:
-      "Own a Max-Locked veToken on Aerodrome, Lynex, SwapX, Ocelex, or Thena? See if you qualify for this badge!",
+      "Own a Max-Locked veToken on an existing ve(3,3) protocol? See if you qualify for this badge!",
     type: "Partner",
     category: "DeFi",
     partnerName: "ve(3,3) Protocols",
@@ -69,8 +69,7 @@ const Badges: Badge[] = [
     image: `${LINK_PREFIX}/20.png`,
     rewardImage: `${LINK_PREFIX}/20.png`,
     description: "Be a YO Leaderboard Member",
-    fullDescription:
-      "Claim this badge by being a top 1000 member of the YO leaderboard",
+    fullDescription: "Claim this badge by being a member of the YO leaderboard",
     type: "Activity",
     category: "DeFi",
     partnerName: "YO",
