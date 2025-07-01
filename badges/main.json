@@ -13,19 +13,19 @@
     "metric": "Locked veTokens"
   },
   {
-    "name": "BMX Staker",
-    "nftId": "18",
-    "image": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/18.png",
-    "rewardImage": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/18.png",
-    "description": "Stake Your BMX on Base",
-    "fullDescription": "Claim this badge by staking BMX tokens on bmx.trade",
+    "name": "Apes Together Strong",
+    "nftId": "22",
+    "image": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/22.png",
+    "rewardImage": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/22.png",
+    "description": "Buy a Bond on Base",
+    "fullDescription": "Claim this badge by buying a bond from ape.bond on Base",
     "type": "Partner",
     "category": "DeFi",
-    "partnerName": "BMX",
+    "partnerName": "ApeBond",
     "minHydropoints": 1000,
-    "poolSize": 5000,
+    "poolSize": 10000,
     "maxSupply": 250,
-    "externalLink": "https://bmx.trade"
+    "externalLink": "https://ape.bond"
   },
   {
     "name": "Inbetween Alien",
@@ -72,35 +72,6 @@
     "poolSize": 2500,
     "maxSupply": 200,
     "externalLink": "https://moonwell.fi"
-  },
-  {
-    "name": "Apes Together Strong",
-    "nftId": "22",
-    "image": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/22.png",
-    "rewardImage": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/22.png",
-    "description": "Buy a Bond on Base",
-    "fullDescription": "Claim this badge by buying a bond from ape.bond on Base",
-    "type": "Partner",
-    "category": "DeFi",
-    "partnerName": "ApeBond",
-    "minHydropoints": 1000,
-    "poolSize": 10000,
-    "maxSupply": 250,
-    "externalLink": "https://ape.bond"
-  },
-  {
-    "name": "Hydrex O.G.",
-    "nftId": "0",
-    "image": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/0.png",
-    "rewardImage": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/0.png",
-    "description": "For Hydrex Day 1 supporters",
-    "fullDescription": "A Badge designed for all the Hydrex O.G.'s and day 1 supporters. Claimable by any account. First come first serve.",
-    "type": "Activity",
-    "category": "Tier",
-    "partnerName": "Hydrex",
-    "minHydropoints": 0,
-    "poolSize": 10000,
-    "maxSupply": 10000
   },
   {
     "name": "Purple App",
@@ -315,5 +286,19 @@
     "partnerName": "Base",
     "minHydropoints": 10000000,
     "poolSize": 20000
+  },
+  {
+    "name": "Hydrex O.G.",
+    "nftId": "0",
+    "image": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/0.png",
+    "rewardImage": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/0.png",
+    "description": "For Hydrex Day 1 supporters",
+    "fullDescription": "A Badge designed for all the Hydrex O.G.'s and day 1 supporters. Claimable by any account. First come first serve.",
+    "type": "Activity",
+    "category": "Tier",
+    "partnerName": "Hydrex",
+    "minHydropoints": 0,
+    "poolSize": 10000,
+    "maxSupply": 10000
   }
 ]
