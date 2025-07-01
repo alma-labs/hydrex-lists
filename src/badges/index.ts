@@ -197,9 +197,9 @@ const Badges: Badge[] = [
     nftId: "10",
     image: `${LINK_PREFIX}/10.png`,
     rewardImage: `${LINK_PREFIX}/10.png`,
-    description: "Only for Smart Wallet Users",
+    description: "For Coinbase Smart Wallet Users",
     fullDescription:
-      "Claim this Badge with an account that is a funded Smart Wallet.",
+      "Claim this Badge with an account that is a funded Coinbase Smart Wallet.",
     type: "Activity",
     category: "Based",
     partnerName: "Base",
