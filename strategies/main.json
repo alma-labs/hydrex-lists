@@ -14,6 +14,19 @@
   },
   {
     "chainId": 8453,
+    "title": "WETH/cbBTC",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 3,
+    "riskDescription": "This strategy is moderately-low risk, due to its narrow strategy and the price deviations between the non-correlated assets.",
+    "address": "0xCf27Dd90878Dd88FD58bFfFCBDfBC7E0Cf7cd779",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+    "depositToken": "0x4200000000000000000000000000000000000006"
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/DAI",
     "type": "Single Sided",
     "liquidityType": "integral",
@@ -24,6 +37,71 @@
     "token0Address": "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb",
     "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+  },
+  {
+    "chainId": 8453,
+    "title": "cbBTC/WETH",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 3,
+    "riskDescription": "This strategy is moderately-low risk, due to its narrow strategy and the price deviations between the non-correlated assets.",
+    "address": "0x558684fDAd1D3b69f920b0C8E5Ae9ff797e3f045",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+    "depositToken": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf"
+  },
+  {
+    "chainId": 8453,
+    "title": "cbADA/WETH",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 3,
+    "riskDescription": "This strategy is moderately-low risk, due to its narrow strategy and the price deviations between the non-correlated assets.",
+    "address": "0x8631daC9A602F313c5e192cD714010Cd4eEc28e3",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xcbADA732173e39521CDBE8bf59a6Dc85A9fc7b8c",
+    "depositToken": "0xcbADA732173e39521CDBE8bf59a6Dc85A9fc7b8c"
+  },
+  {
+    "chainId": 8453,
+    "title": "cbLTC/WETH",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 3,
+    "riskDescription": "This strategy is moderately-low risk, due to its narrow strategy and the price deviations between the non-correlated assets.",
+    "address": "0xC903a361F76dcDB3A85f0884d114fE1662B63cDe",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xcb17C9Db87B595717C857a08468793f5bAb6445F",
+    "depositToken": "0xcb17C9Db87B595717C857a08468793f5bAb6445F"
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/weETH",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 2,
+    "riskDescription": "This strategy is low risk. The assets are highly correlated in price. Please note input proportions vs output proportions may vary.",
+    "address": "0x124D94Caa5523ebdC9EC8C20A1Ea54a587aAe6A0",
+    "token0Address": "0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A",
+    "token1Address": "0x4200000000000000000000000000000000000006",
+    "depositToken": "0x4200000000000000000000000000000000000006"
+  },
+  {
+    "chainId": 8453,
+    "title": "tBTC/cbBTC",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 2,
+    "riskDescription": "This strategy is low risk. The assets are highly correlated in price. Please note input proportions vs output proportions may vary.",
+    "address": "0x3a2020D5Fd4739B667A38158D58F1A52BA0E280b",
+    "token0Address": "0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b",
+    "token1Address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+    "depositToken": "0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b"
   },
   {
     "chainId": 8453,
@@ -40,16 +118,16 @@
   },
   {
     "chainId": 8453,
-    "title": "cbBTC/WETH",
+    "title": "BRZ/USDC",
     "type": "Single Sided",
     "liquidityType": "integral",
     "strategist": "Ichi",
     "riskLevel": 3,
     "riskDescription": "This strategy is moderately-low risk, due to its narrow strategy and the price deviations between the non-correlated assets.",
-    "address": "0x558684fDAd1D3b69f920b0C8E5Ae9ff797e3f045",
-    "token0Address": "0x4200000000000000000000000000000000000006",
-    "token1Address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
-    "depositToken": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf"
+    "address": "0x36474f6980E9F869CE80B7f3A859f0032d888C67",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0xE9185Ee218cae427aF7B9764A011bb89FeA761B4",
+    "depositToken": "0xE9185Ee218cae427aF7B9764A011bb89FeA761B4"
   },
   {
     "chainId": 8453,
@@ -92,19 +170,6 @@
   },
   {
     "chainId": 8453,
-    "title": "GHO/USDC",
-    "type": "Correlated",
-    "liquidityType": "uniV4",
-    "strategist": "Gamma",
-    "riskLevel": 1,
-    "riskDescription": "This strategy is low risk. The assets are highly correlated in price. Please note input proportions vs output proportions may vary.",
-    "address": "0x5fd254cd52235b9c04e53b48d77b52366bfb7c03",
-    "token0Address": "0x6Bb7a212910682DCFdbd5BCBb3e28FB4E8da10Ee",
-    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-    "v4PoolId": "0xa18262d729e388b0a67aa65c0dd2a096482b3a27058be5547a3235d053dd90b4"
-  },
-  {
-    "chainId": 8453,
     "title": "EURC/WETH",
     "type": "Single Sided",
     "liquidityType": "integral",
@@ -115,6 +180,19 @@
     "token0Address": "0x4200000000000000000000000000000000000006",
     "token1Address": "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
     "depositToken": "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42"
+  },
+  {
+    "chainId": 8453,
+    "title": "GHO/USDC",
+    "type": "Correlated",
+    "liquidityType": "uniV4",
+    "strategist": "Gamma",
+    "riskLevel": 1,
+    "riskDescription": "This strategy is low risk. The assets are highly correlated in price. Please note input proportions vs output proportions may vary.",
+    "address": "0x5fd254cd52235b9c04e53b48d77b52366bfb7c03",
+    "token0Address": "0x6Bb7a212910682DCFdbd5BCBb3e28FB4E8da10Ee",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "v4PoolId": "0xa18262d729e388b0a67aa65c0dd2a096482b3a27058be5547a3235d053dd90b4"
   },
   {
     "chainId": 8453,
