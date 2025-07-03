@@ -74,6 +74,21 @@
     "externalLink": "https://moonwell.fi"
   },
   {
+    "name": "That's All, Folks",
+    "nftId": "23",
+    "image": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/23.png",
+    "rewardImage": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/23.png",
+    "description": "Own a Folks Finance Founders Pass",
+    "fullDescription": "Claim this badge by holding the Folks Finance Founders Pass on Base.",
+    "type": "Partner",
+    "category": "DeFi",
+    "partnerName": "Folks Finance",
+    "minHydropoints": 1000,
+    "poolSize": 1000,
+    "maxSupply": 50,
+    "externalLink": "https://folks.finance/"
+  },
+  {
     "name": "Purple App",
     "nftId": "6",
     "image": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/6.png",
