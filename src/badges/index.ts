@@ -11,7 +11,7 @@ const Badges: Badge[] = [
     rewardImage: `${LINK_PREFIX}/17.png`,
     description: "Lock veTokens? This is for you.",
     fullDescription:
-      "Own a Max-Locked veToken on an existing ve(3,3) protocol? See if you qualify for this badge!",
+      "Own a Max-Locked veToken on an existing ve(3,3) protocol? See if you qualify for this badge! Snapshot taken late June 2025.",
     type: "Partner",
     category: "DeFi",
     partnerName: "ve(3,3) Protocols",
@@ -102,7 +102,8 @@ const Badges: Badge[] = [
     image: `${LINK_PREFIX}/23.png`,
     rewardImage: `${LINK_PREFIX}/23.png`,
     description: "Own a Folks Finance Founders Pass",
-    fullDescription: "Claim this badge by holding the Folks Finance Founders Pass on Base.",
+    fullDescription:
+      "Claim this badge by holding the Folks Finance Founders Pass on Base.",
     type: "Partner",
     category: "DeFi",
     partnerName: "Folks Finance",
@@ -277,7 +278,7 @@ const Badges: Badge[] = [
     rewardImage: `${LINK_PREFIX}/1.png`,
     description: "First Tier Hydrex Member",
     fullDescription:
-      "Provide liquidity to acquire 1000+ Hydropoints & become a tier 1 Based Hydrex Member.",
+      "Provide liquidity to acquire 1000+ Hydropoints & become a tier 1 Based Hydrex Member. Max of 1 veHYDX per account.",
     type: "Tier",
     category: "Tier",
     partnerName: "Base",
@@ -291,7 +292,7 @@ const Badges: Badge[] = [
     rewardImage: `${LINK_PREFIX}/2.png`,
     description: "Tier 2 Hydrex Member",
     fullDescription:
-      "Provide liquidity to acquire 10,000+ Hydropoints & become a tier 2 Based Hydrex Member.",
+      "Provide liquidity to acquire 10,000+ Hydropoints & become a tier 2 Based Hydrex Member. Max of 4 veHYDX per account.",
     type: "Tier",
     category: "Tier",
     partnerName: "Base",
@@ -305,7 +306,7 @@ const Badges: Badge[] = [
     rewardImage: `${LINK_PREFIX}/3.png`,
     description: "Tier 3 Hydrex Member",
     fullDescription:
-      "Provide liquidity to acquire 100,000+ Hydropoints & become a tier 3 Based Hydrex Member.",
+      "Provide liquidity to acquire 100,000+ Hydropoints & become a tier 3 Based Hydrex Member. Max of 10 veHYDX per account.",
     type: "Tier",
     category: "Tier",
     partnerName: "Base",
@@ -319,7 +320,7 @@ const Badges: Badge[] = [
     rewardImage: `${LINK_PREFIX}/4.png`,
     description: "Tier 4 Hydrex Member",
     fullDescription:
-      "Provide liquidity to acquire 1,000,000+ Hydropoints & become a tier 4 Based Hydrex Member.",
+      "Provide liquidity to acquire 1,000,000+ Hydropoints & become a tier 4 Based Hydrex Member. Max of 150 veHYDX per account.",
     type: "Tier",
     category: "Tier",
     partnerName: "Base",
@@ -333,7 +334,7 @@ const Badges: Badge[] = [
     rewardImage: `${LINK_PREFIX}/5.png`,
     description: "Top Tier Hydrex Member",
     fullDescription:
-      "Provide liquidity to acquire 10,000,000+ Hydropoints & become the top Tier Based Hydrex Member.",
+      "Provide liquidity to acquire 10,000,000+ Hydropoints & become the top Tier Based Hydrex Member. Max of 2000 veHYDX per account.",
     type: "Tier",
     category: "Tier",
     partnerName: "Base",
