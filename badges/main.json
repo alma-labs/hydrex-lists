@@ -86,21 +86,6 @@
     "externalLink": "https://cat.town/"
   },
   {
-    "name": "It's a Me, Bario!",
-    "nftId": "25",
-    "image": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/25.png",
-    "rewardImage": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/25.png",
-    "description": "For Bario DMG-01 Holders",
-    "fullDescription": "Claim this badge by holding a Bario DMG-01 NFT in your wallet and being a lifelong Base gamer!",
-    "type": "Partner",
-    "category": "Gaming",
-    "partnerName": "Bario",
-    "minHydropoints": 1000,
-    "poolSize": 2000,
-    "maxSupply": 50,
-    "externalLink": "https://baes.so/"
-  },
-  {
     "name": "The Dropzone",
     "nftId": "26",
     "image": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/26.png",
