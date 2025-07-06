@@ -86,9 +86,9 @@ const Badges: Badge[] = [
     nftId: "24",
     image: `${LINK_PREFIX}/24.png`,
     rewardImage: `${LINK_PREFIX}/24.png`,
-    description: "Leaderboard Member on Cat Town",
+    description: "Leaderboard Rank on Cat Town",
     fullDescription:
-      "Claim this badge by being a top 1000 member of the Cat Town leaderboard. Snapshot taken July 6th.",
+      "Claim this badge by being a top 100 member of the Cat Town leaderboard. Snapshot taken July 6th.",
     type: "Partner",
     category: "Gaming",
     partnerName: "Cat Town",
