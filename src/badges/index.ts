@@ -82,7 +82,7 @@ const Badges: Badge[] = [
     externalLink: "https://tokiemon.io",
   },
   {
-    name: "Top Kitty",
+    name: "Top Cat",
     nftId: "24",
     image: `${LINK_PREFIX}/24.png`,
     rewardImage: `${LINK_PREFIX}/24.png`,
