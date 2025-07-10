@@ -23,7 +23,7 @@
     "category": "Gaming",
     "partnerName": "B3",
     "minHydropoints": 1000,
-    "poolSize": 2000,
+    "poolSize": 200000,
     "maxSupply": 100,
     "externalLink": "https://stake.b3.fun/"
   },
@@ -38,7 +38,7 @@
     "category": "Gaming",
     "partnerName": "Frenpet",
     "minHydropoints": 1000,
-    "poolSize": 2000,
+    "poolSize": 200000,
     "maxSupply": 25,
     "externalLink": "https://www.frenpet.xyz/"
   },
@@ -53,7 +53,7 @@
     "category": "Gaming",
     "partnerName": "Heroes of Mavia",
     "minHydropoints": 1000,
-    "poolSize": 2000,
+    "poolSize": 200000,
     "maxSupply": 100,
     "externalLink": "https://www.mavia.com/staking/mavia"
   },
@@ -96,7 +96,7 @@
     "category": "Gaming",
     "partnerName": "Metacade",
     "minHydropoints": 1000,
-    "poolSize": 2000,
+    "poolSize": 200000,
     "maxSupply": 50,
     "externalLink": "https://www.metacade.co/dropzone"
   },
@@ -111,7 +111,7 @@
     "category": "DeFi",
     "partnerName": "ApeBond",
     "minHydropoints": 1000,
-    "poolSize": 10000,
+    "poolSize": 1000000,
     "maxSupply": 250,
     "externalLink": "https://ape.bond"
   },
@@ -126,7 +126,7 @@
     "category": "DeFi",
     "partnerName": "Alien Base",
     "minHydropoints": 1000,
-    "poolSize": 2500,
+    "poolSize": 250000,
     "maxSupply": 200,
     "externalLink": "https://alienbase.xyz"
   },
@@ -141,7 +141,7 @@
     "category": "DeFi",
     "partnerName": "YO",
     "minHydropoints": 1000,
-    "poolSize": 1000,
+    "poolSize": 100000,
     "maxSupply": 50,
     "metric": "YO Leaderboard",
     "externalLink": "https://yo.xyz"
@@ -157,7 +157,7 @@
     "category": "DeFi",
     "partnerName": "Moonwell",
     "minHydropoints": 1000,
-    "poolSize": 2500,
+    "poolSize": 250000,
     "maxSupply": 200,
     "externalLink": "https://moonwell.fi"
   },
@@ -172,7 +172,7 @@
     "category": "DeFi",
     "partnerName": "Folks Finance",
     "minHydropoints": 1000,
-    "poolSize": 1000,
+    "poolSize": 100000,
     "maxSupply": 50,
     "externalLink": "https://folks.finance/"
   },
@@ -187,7 +187,7 @@
     "category": "Social",
     "partnerName": "Farcaster",
     "minHydropoints": 100,
-    "poolSize": 5000,
+    "poolSize": 500000,
     "maxSupply": 1000,
     "externalLink": "https://farcaster.xyz"
   },
@@ -202,7 +202,7 @@
     "category": "Based",
     "partnerName": "Base",
     "minHydropoints": 1000,
-    "poolSize": 2500,
+    "poolSize": 250000,
     "maxSupply": 250,
     "externalLink": "https://zora.co"
   },
@@ -217,7 +217,7 @@
     "category": "Memes",
     "partnerName": "Base",
     "minHydropoints": 1000,
-    "poolSize": 2500,
+    "poolSize": 250000,
     "maxSupply": 250,
     "externalLink": "https://flaunch.gg"
   },
@@ -232,7 +232,7 @@
     "category": "Social",
     "partnerName": "Farcaster",
     "minHydropoints": 100,
-    "poolSize": 1500,
+    "poolSize": 150000,
     "maxSupply": 100,
     "externalLink": "https://farcaster.xyz"
   },
@@ -247,7 +247,7 @@
     "category": "Social",
     "partnerName": "Farcaster",
     "minHydropoints": 10,
-    "poolSize": 5000,
+    "poolSize": 500000,
     "maxSupply": 2500,
     "externalLink": "https://farcaster.xyz/hydrexfi"
   },
@@ -262,7 +262,7 @@
     "category": "Based",
     "partnerName": "Base",
     "minHydropoints": 100,
-    "poolSize": 10000,
+    "poolSize": 1000000,
     "maxSupply": 5000,
     "externalLink": "https://base.org/names"
   },
@@ -277,7 +277,7 @@
     "category": "Based",
     "partnerName": "Base",
     "minHydropoints": 1000,
-    "poolSize": 10000,
+    "poolSize": 1000000,
     "maxSupply": 1000
   },
   {
@@ -291,7 +291,7 @@
     "category": "Based",
     "partnerName": "Base",
     "minHydropoints": 1000,
-    "poolSize": 2500,
+    "poolSize": 250000,
     "maxSupply": 250,
     "externalLink": "https://www.coinbase.com/onchain-verify"
   },
@@ -306,7 +306,7 @@
     "category": "Based",
     "partnerName": "Base",
     "minHydropoints": 1000,
-    "poolSize": 2500,
+    "poolSize": 250000,
     "maxSupply": 250,
     "externalLink": "https://www.base.org/builders"
   },
@@ -321,7 +321,7 @@
     "category": "Based",
     "partnerName": "Base",
     "minHydropoints": 1000,
-    "poolSize": 2500,
+    "poolSize": 250000,
     "maxSupply": 100,
     "externalLink": "https://www.coinbase.com/one"
   },
@@ -331,12 +331,12 @@
     "image": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/1.png",
     "rewardImage": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/1.png",
     "description": "First Tier Hydrex Member",
-    "fullDescription": "Provide liquidity to acquire 1000+ Hydropoints & become a tier 1 Based Hydrex Member. Max of 1 veHYDX per account.",
+    "fullDescription": "Provide liquidity to acquire 1000+ Hydropoints & become a tier 1 Based Hydrex Member. Max of 100 veHYDX per account.",
     "type": "Tier",
     "category": "Tier",
     "partnerName": "Base",
     "minHydropoints": 1000,
-    "poolSize": 10000
+    "poolSize": 1000000
   },
   {
     "name": "Honest Work",
@@ -344,12 +344,12 @@
     "image": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/2.png",
     "rewardImage": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/2.png",
     "description": "Tier 2 Hydrex Member",
-    "fullDescription": "Provide liquidity to acquire 10,000+ Hydropoints & become a tier 2 Based Hydrex Member. Max of 4 veHYDX per account.",
+    "fullDescription": "Provide liquidity to acquire 10,000+ Hydropoints & become a tier 2 Based Hydrex Member. Max of 400 veHYDX per account.",
     "type": "Tier",
     "category": "Tier",
     "partnerName": "Base",
     "minHydropoints": 10000,
-    "poolSize": 10000
+    "poolSize": 1000000
   },
   {
     "name": "DeFi Degen",
@@ -357,12 +357,12 @@
     "image": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/3.png",
     "rewardImage": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/3.png",
     "description": "Tier 3 Hydrex Member",
-    "fullDescription": "Provide liquidity to acquire 100,000+ Hydropoints & become a tier 3 Based Hydrex Member. Max of 10 veHYDX per account.",
+    "fullDescription": "Provide liquidity to acquire 100,000+ Hydropoints & become a tier 3 Based Hydrex Member. Max of 1,000 veHYDX per account.",
     "type": "Tier",
     "category": "Tier",
     "partnerName": "Base",
     "minHydropoints": 100000,
-    "poolSize": 10000
+    "poolSize": 1000000
   },
   {
     "name": "Master Baser",
@@ -370,12 +370,12 @@
     "image": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/4.png",
     "rewardImage": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/4.png",
     "description": "Tier 4 Hydrex Member",
-    "fullDescription": "Provide liquidity to acquire 1,000,000+ Hydropoints & become a tier 4 Based Hydrex Member. Max of 150 veHYDX per account.",
+    "fullDescription": "Provide liquidity to acquire 1,000,000+ Hydropoints & become a tier 4 Based Hydrex Member. Max of 15,000 veHYDX per account.",
     "type": "Tier",
     "category": "Tier",
     "partnerName": "Base",
     "minHydropoints": 1000000,
-    "poolSize": 15000
+    "poolSize": 1500000
   },
   {
     "name": "Based God",
@@ -383,12 +383,12 @@
     "image": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/5.png",
     "rewardImage": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges/5.png",
     "description": "Top Tier Hydrex Member",
-    "fullDescription": "Provide liquidity to acquire 10,000,000+ Hydropoints & become the top Tier Based Hydrex Member. Max of 2000 veHYDX per account.",
+    "fullDescription": "Provide liquidity to acquire 10,000,000+ Hydropoints & become the top Tier Based Hydrex Member. Max of 200,000 veHYDX per account.",
     "type": "Tier",
     "category": "Tier",
     "partnerName": "Base",
     "minHydropoints": 10000000,
-    "poolSize": 20000
+    "poolSize": 2000000
   },
   {
     "name": "Hydrex O.G.",
@@ -401,7 +401,7 @@
     "category": "Tier",
     "partnerName": "Hydrex",
     "minHydropoints": 0,
-    "poolSize": 10000,
+    "poolSize": 1000000,
     "maxSupply": 10000
   }
 ]
