@@ -55,6 +55,7 @@ export interface Badge {
   poolSize?: number; // Shows total planned pool size in UI
   maxSupply?: number; // Impacts Max Supply configuration on smart contract
   externalLink?: string; // Link to the badge on the website
+  maxPower?: number; // Maximum veHYDX voting power per account for this badge
 }
 
 export interface Strategy {
