@@ -336,7 +336,8 @@
     "category": "Tier",
     "partnerName": "Base",
     "minHydropoints": 1000,
-    "poolSize": 1000000
+    "poolSize": 1000000,
+    "maxPower": 100
   },
   {
     "name": "Honest Work",
@@ -349,7 +350,8 @@
     "category": "Tier",
     "partnerName": "Base",
     "minHydropoints": 10000,
-    "poolSize": 1000000
+    "poolSize": 1000000,
+    "maxPower": 400
   },
   {
     "name": "DeFi Degen",
@@ -362,7 +364,8 @@
     "category": "Tier",
     "partnerName": "Base",
     "minHydropoints": 100000,
-    "poolSize": 1000000
+    "poolSize": 1000000,
+    "maxPower": 1000
   },
   {
     "name": "Master Baser",
@@ -375,7 +378,8 @@
     "category": "Tier",
     "partnerName": "Base",
     "minHydropoints": 1000000,
-    "poolSize": 1500000
+    "poolSize": 1500000,
+    "maxPower": 15000
   },
   {
     "name": "Based God",
@@ -388,7 +392,8 @@
     "category": "Tier",
     "partnerName": "Base",
     "minHydropoints": 10000000,
-    "poolSize": 2000000
+    "poolSize": 2000000,
+    "maxPower": 200000
   },
   {
     "name": "Hydrex O.G.",

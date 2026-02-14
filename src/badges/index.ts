@@ -394,6 +394,7 @@ const Badges: Badge[] = [
     partnerName: "Base",
     minHydropoints: 1000,
     poolSize: 1000000,
+    maxPower: 100,
   },
   {
     name: "Honest Work",
@@ -408,6 +409,7 @@ const Badges: Badge[] = [
     partnerName: "Base",
     minHydropoints: 10000,
     poolSize: 1000000,
+    maxPower: 400,
   },
   {
     name: "DeFi Degen",
@@ -422,6 +424,7 @@ const Badges: Badge[] = [
     partnerName: "Base",
     minHydropoints: 100000,
     poolSize: 1000000,
+    maxPower: 1000,
   },
   {
     name: "Master Baser",
@@ -436,6 +439,7 @@ const Badges: Badge[] = [
     partnerName: "Base",
     minHydropoints: 1000000,
     poolSize: 1500000,
+    maxPower: 15000,
   },
   {
     name: "Based God",
@@ -450,6 +454,7 @@ const Badges: Badge[] = [
     partnerName: "Base",
     minHydropoints: 10000000,
     poolSize: 2000000,
+    maxPower: 200000,
   },
   {
     name: "Hydrex O.G.",
